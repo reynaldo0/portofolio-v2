@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { academicCertificates, courseCertificates } from "../../docs/CertificateData";
 import "./Certificate.css";
 import { useTranslation } from "react-i18next";
-import { LazyLoadImage } from 'react-lazy-load-image-component';  // Import LazyLoadImage
 
 const Certificate = () => {
   const { t } = useTranslation();
@@ -10,6 +9,7 @@ const Certificate = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);  // State untuk melacak loading
 
   const certificates =
     selectedType === "academic" ? academicCertificates : courseCertificates;
@@ -25,6 +25,15 @@ const Certificate = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  // Fungsi untuk menangani gambar yang sedang dimuat
+  const handleImageLoad = () => {
+    setIsLoading(false);  // Gambar sudah selesai dimuat
+  };
+
+  const handleImageError = () => {
+    setIsLoading(false);  // Jika gambar gagal dimuat
   };
 
   return (
@@ -71,13 +80,14 @@ const Certificate = () => {
           className="certificate-display"
           onClick={() => openModal(certificates[currentIndex].img)}
         >
-          {/* Lazy Load dengan Efek Loading */}
-          <LazyLoadImage
+          {isLoading && <div className="loading-spinner">Loading...</div>} {/* Menampilkan efek loading */}
+
+          <img
             src={certificates[currentIndex].img}
             alt={t("Certificate Image")}
-            effect="blur"   // Efek blur sementara gambar dimuat
-            width="100%"     // Atur lebar gambar sesuai container
-            height="100%"    // Atur tinggi gambar sesuai container
+            onLoad={handleImageLoad}   // Ketika gambar selesai dimuat
+            onError={handleImageError}  // Jika gambar gagal dimuat
+            onLoadStart={() => setIsLoading(true)} // Memulai loading saat gambar mulai dimuat
           />
         </div>
       </div>
