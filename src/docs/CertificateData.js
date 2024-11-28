@@ -1,56 +1,89 @@
-// docs/certificates.js
-
 export const academicCertificates = [
     {
-        title: "Club Computing Club Competition - Regional DKI Jakarta (Juara 2)",
+        translations: {
+            id: "Club Computing Club Competition - Regional DKI Jakarta (Juara 2)",
+            en: "Club Computing Club Competition - Regional DKI Jakarta (2nd Place)"
+        },
         img: "/certificate/akademik/c4juara.jpg",
     },
     {
-        title: "Club Computing Club Competition - Regional DKI Jakarta (Best Design)",
+        translations: {
+            id: "Best Design - Club Computing Club Competition Regional DKI Jakarta",
+            en: "Best Design - Club Computing Club Competition Regional DKI Jakarta"
+        },
         img: "/certificate/akademik/c4best.jpg",
     },
     {
-        title: "Siswa (LKS) SMK Tingkat Kota Wilayah JT1 (Juara Harapan III)",
+        translations: {
+            id: "Siswa (LKS) SMK Tingkat Kota Wilayah JT1 (Juara Harapan III)",
+            en: "LKS SMK City Level JT1 (3rd Runner-Up)"
+        },
         img: "/certificate/akademik/lks.jpg",
     },
     {
-        title: "Micro Influencer Competition Gerakan Sekolah Sehat (Juara Harapan I)",
+        translations: {
+            id: "Micro Influencer Competition Gerakan Sekolah Sehat (Juara Harapan I)",
+            en: "Micro Influencer Competition Healthy School Movement (1st Runner-Up)"
+        },
         img: "/certificate/akademik/gss.jpg",
     },
     {
-        title: "Web Design 8 Technology Festival 2024 (Juara 2)",
+        translations: {
+            id: "Web Design 8 Technology Festival 2024 (Juara 2)",
+            en: "Web Design 8 Technology Festival 2024 (2nd Place)"
+        },
         img: "/certificate/akademik/t8no.jpg",
     },
     {
-        title: "De Code Web Design Competition 2024 (Peserta)",
+        translations: {
+            id: "De Code Web Design Competition 2024 (Peserta)",
+            en: "De Code Web Design Competition 2024 (Participant)"
+        },
         img: "/certificate/akademik/decode.png",
     },
     {
-        title: "Intermedia Information Technology (IITC) X Rumah Web (Nominasi Juara)",
+        translations: {
+            id: "Intermedia Information Technology (IITC) X Rumah Web (Nominasi Juara)",
+            en: "Intermedia Information Technology (IITC) X Rumah Web (Nomination)"
+        },
         img: "/certificate/akademik/iitc.jpg",
     },
     {
-        title: "Olimpiade Sains Pelajar Nasional Matematika SMA (Medali Emas)",
+        translations: {
+            id: "Olimpiade Sains Pelajar Nasional Matematika SMA (Medali Emas)",
+            en: "National Science Olympiad for Students in Mathematics (Gold Medal)"
+        },
         img: "/certificate/akademik/ospn.jpg",
     },
-    
 ];
 
 export const courseCertificates = [
     {
-        title: "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence",
+        translations: {
+            id: "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence",
+            en: "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence"
+        },
         img: "/certificate/bootcamp/kampus.jpg",
     },
     {
-        title: "Kickstart Fullstack Web Development Journey",
+        translations: {
+            id: "Kickstart Fullstack Web Development Journey",
+            en: "Kickstart Fullstack Web Development Journey"
+        },
         img: "/certificate/bootcamp/rakamin.jpg",
     },
     {
-        title: "Basic And Benefits Of Penetration Testing",
+        translations: {
+            id: "Basic And Benefits Of Penetration Testing",
+            en: "Basic And Benefits Of Penetration Testing"
+        },
         img: "/certificate/bootcamp/cysec.jpg",
     },
     {
-        title: "Vulnerability Assessment Lifecycle",
+        translations: {
+            id: "Vulnerability Assessment Lifecycle",
+            en: "Vulnerability Assessment Lifecycle"
+        },
         img: "/certificate/bootcamp/idn.jpg",
     },
 ];

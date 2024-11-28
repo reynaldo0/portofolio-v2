@@ -55,30 +55,6 @@ const resources = {
       "Sertifikat Keterampilan": "Course Certificates",
       "Certificate Image": "Certificate Image",
       "Zoomed Project": "Zoomed Project",
-      "Club Computing Club Competition - Regional DKI Jakarta (Juara 2)":
-        "Club Computing Club Competition - Regional DKI Jakarta (2nd Place)",
-      "Club Computing Club Competition - Regional DKI Jakarta (Best Design)":
-        "Club Computing Club Competition - Regional DKI Jakarta (Best Design)",
-      "Siswa (LKS) SMK Tingkat Kota Wilayah JT1 (Juara Harapan III)":
-        "Siswa (LKS) SMK City Level JT1 (3rd Runner-up)",
-      "Micro Influencer Competition Gerakan Sekolah Sehat (Juara Harapan I)":
-        "Micro Influencer Competition Gerakan Sekolah Sehat (1st Runner-up)",
-      "Web Design 8 Technology Festival 2024 (Juara 2)":
-        "Web Design 8 Technology Festival 2024 (2nd Place)",
-      "De Code Web Design Competition 2024 (Peserta)":
-        "De Code Web Design Competition 2024 (Participant)",
-      "Intermedia Information Technology (IITC) X Rumah Web (Nominasi Juara)":
-        "Intermedia Information Technology (IITC) X Rumah Web (Nominee)",
-      "Olimpiade Sains Pelajar Nasional Matematika SMA (Medali Emas)":
-        "Olimpiade Sains Pelajar Nasional Mathematics High School (Gold Medal)",
-      "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence":
-        "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence",
-      "Kickstart Fullstack Web Development Journey":
-        "Kickstart Fullstack Web Development Journey",
-      "Basic And Benefits Of Penetration Testing":
-        "Basic And Benefits Of Penetration Testing",
-      "Vulnerability Assessment Lifecycle":
-        "Vulnerability Assessment Lifecycle",
 
       // QUALIFICATION
       experience: "Experience",
@@ -191,29 +167,6 @@ const resources = {
       "Sertifikat Prestasi": "Sertifikat Prestasi",
       "Certificate Image": "Gambar Sertifikat",
       "Zoomed Project": "Proyek Diperbesar",
-      "Club Computing Club Competition - Regional DKI Jakarta (Juara 2)":
-        "Kompetisi Klub Komputer - Regional DKI Jakarta (Juara 2)",
-      "Club Computing Club Competition - Regional DKI Jakarta (Best Design)":
-        "Kompetisi Klub Komputer - Regional DKI Jakarta (Desain Terbaik)",
-      "Siswa (LKS) SMK Tingkat Kota Wilayah JT1 (Juara Harapan III)":
-        "Siswa (LKS) SMK Tingkat Kota Wilayah JT1 (Juara Harapan III)",
-      "Micro Influencer Competition Gerakan Sekolah Sehat (Juara Harapan I)":
-        "Kompetisi Micro Influencer Gerakan Sekolah Sehat (Juara Harapan I)",
-      "Web Design 8 Technology Festival 2024 (Juara 2)":
-        "Festival Teknologi Web Design 8 2024 (Juara 2)",
-      "De Code Web Design Competition 2024 (Peserta)":
-        "Kompetisi Web Design De Code 2024 (Peserta)",
-      "Intermedia Information Technology (IITC) X Rumah Web (Nominasi Juara)":
-        "Teknologi Informasi Intermedia (IITC) X Rumah Web (Nominasi Juara)",
-      "Olimpiade Sains Pelajar Nasional Matematika SMA (Medali Emas)":
-        "Olimpiade Sains Pelajar Nasional Matematika SMA (Medali Emas)",
-      "Web Design Fundamentals - Transforming Lines Of Code Intro Digital Excellence":
-        "Dasar-dasar Desain Web - Transformasi Baris Kode Intro Digital Excellence",
-      "Kickstart Fullstack Web Development Journey":
-        "Memulai Perjalanan Fullstack Web Development",
-      "Basic And Benefits Of Penetration Testing":
-        "Dasar dan Manfaat Penetration Testing",
-      "Vulnerability Assessment Lifecycle": "Siklus Penilaian Kerentanannya",
 
       // CONTACT
       "HUBUNGI SAYA": "HUBUNGI SAYA",
