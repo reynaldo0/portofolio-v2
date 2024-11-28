@@ -8,6 +8,7 @@ const skillsData = [
   { name: "PHP", icon: "/skills/php.svg" },
   { name: "Python", icon: "/skills/python.svg" },
   { name: "Django", icon: "/skills/django.svg" },
+  { name: "Wordpress", icon: "/skills/wordpress.svg" },
 ];
 
 export default skillsData;

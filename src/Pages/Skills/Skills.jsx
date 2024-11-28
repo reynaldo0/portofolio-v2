@@ -1,21 +1,36 @@
-import React, { useState } from "react";
-import { useTranslation } from "react-i18next"; 
+import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import "./Skills.css";
 import skillsData from "../../docs/SkillsData";
 
 const Skills = () => {
   const { t } = useTranslation();
-  const [visibleItems, setVisibleItems] = useState(window.innerWidth > 768 ? 6 : 4);
+  const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);
+  const [visibleItems, setVisibleItems] = useState(isMobile ? 4 : 6);
 
-  // Fungsi untuk menampilkan lebih banyak item
+  // Update state ketika ukuran layar berubah
+  useEffect(() => {
+    const handleResize = () => {
+      const mobile = window.matchMedia("(max-width: 768px)").matches;
+      setIsMobile(mobile);
+      setVisibleItems(mobile ? 4 : 6);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  // Fungsi untuk load more
   const handleLoadMore = () => {
-    setVisibleItems((prev) => prev + (window.innerWidth > 768 ? 6 : 4));
+    setVisibleItems((prev) => prev + (isMobile ? 4 : 6));
   };
 
   return (
     <section className="skills section" id="skills">
       <h2 className="section_title" data-aos="fade-up" data-aos-duration="600">
-        | {t('Keahlian')} |
+        | {t("Keahlian")} |
       </h2>
       <span className="section_subtitle"></span>
 
