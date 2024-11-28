@@ -189,7 +189,6 @@ const resources = {
 
       SERTIFIKAT: "Sertifikat",
       "Sertifikat Prestasi": "Sertifikat Prestasi",
-      "Sertifikat Keterampilan": "Sertifikat Keterampilan",
       "Certificate Image": "Gambar Sertifikat",
       "Zoomed Project": "Proyek Diperbesar",
       "Club Computing Club Competition - Regional DKI Jakarta (Juara 2)":

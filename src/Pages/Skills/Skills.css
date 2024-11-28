@@ -43,15 +43,15 @@
     transform: translateY(-60px);
 }
 
-.skills_list{
+.skills_list {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 30px;
     align-items: center;
 }
 
-.skill_card{
+.skill_card {
     height: 180px;
     width: 100%;
     padding: 20px;
@@ -65,12 +65,12 @@
     overflow: hidden;
 }
 
-.skill_card:hover{
+.skill_card:hover {
     height: 220px;
     width: 100%;
 }
 
-.skill_card::after{
+.skill_card::after {
     content: "";
     position: absolute;
     top: 150%;
@@ -84,25 +84,25 @@
     transition: 1s;
 }
 
-.skill_card:hover::after{
+.skill_card:hover::after {
     width: 325%;
     top: -100%;
 }
 
-.skills_content .skill_card:hover{
+.skills_content .skill_card:hover {
     background-color: transparent;
     transform: translateY(-10px);
     border-color: var(--first-color-second);
 }
 
-.icon_skill{
+.icon_skill {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 4rem;
     color: var(--first-color);
 }
 
-.icon_skill_svg{
+.icon_skill_svg {
     margin-top: 20px;
     width: 100px;
     height: 100px;
@@ -121,45 +121,49 @@
 }
 
 @media screen and (max-width: 767px) {
-    .skills_list{
-        grid-template-columns: repeat(2,1fr);
+    .skills_list {
+        grid-template-columns: repeat(2, 1fr);
     }
-    
-    .skill_card{
+
+    .skill_card {
         height: 140px;
     }
-    .skill_card:hover{
+
+    .skill_card:hover {
         height: 170px;
     }
-    
+
     .skill_card::after {
-        top: 100%; 
-        left: -100%; 
-        width: 200%; 
+        top: 100%;
+        left: -100%;
+        width: 200%;
         height: 10px;
         transition: 0.8s;
     }
 
     .skill_card:hover::after {
-        width: 300%; 
+        width: 300%;
         top: -50%;
     }
-    .icon_skill_svg{
+
+    .icon_skill_svg {
         width: 70px;
         height: 70px;
         margin-bottom: 20px;
     }
 
     .skill_card:hover {
-        transform: none; 
+        transform: none;
         transform: translateY(-8px);
-        background-color: transparent; 
-        border-color: transparent; 
+        background-color: transparent;
+        border-color: transparent;
     }
-    .icon_skill{
+
+    .icon_skill {
         font-size: 4rem;
     }
-    .skills_name{
+
+    .skills_name {
         font-size: 1.25rem;
     }
 }
@@ -168,10 +172,10 @@
     .skills_container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 768px; 
+        max-width: 768px;
     }
 
-    .skills_name{
+    .skills_name {
         font-size: 1.5rem;
     }
 }
@@ -180,6 +184,6 @@
     .skills_container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 768px; 
+        max-width: 768px;
     }
 }
